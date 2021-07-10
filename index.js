@@ -10,4 +10,3 @@ module.exports = {
   ...LoginAttempt,
   ...User
 };
-console.log(Error);
