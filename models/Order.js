@@ -54,7 +54,7 @@ const OrderSchema = new Schema({
         status: {
           type: String
         },
-        cancelled: {
+        canceled: {
           type: Boolean,
           default: false
         },
