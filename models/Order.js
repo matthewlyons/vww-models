@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 
 // Create Order and Draft Order Schema
 const OrderSchema = new Schema({
-  cancelled: {
+  canceled: {
     type: Boolean,
     default: false
   },
